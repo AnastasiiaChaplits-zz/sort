@@ -1,8 +1,8 @@
-interface Sorable {
-  length: number;
-  compare(leftIndex: number, rightIndex: number): boolean;
-  swap(leftIndex: number, rightIndex: number): void;
-}
+// interface Sorable {
+//   length: number;
+//   compare(leftIndex: number, rightIndex: number): boolean;
+//   swap(leftIndex: number, rightIndex: number): void;
+// }
 
 export abstract class Sorter {
   abstract compare(leftIndex: number, rightIndex: number): boolean;
